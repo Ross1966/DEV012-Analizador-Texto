@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background: linear-gradient(180deg, rgb(184, 34, 116), pink);
+}
+
+
+header{
+  background: rgb(147, 185, 230);  
+  
+}
+
+.cuenta{
+ list-style-type: none;
+ padding: 1%;
+ background-color: #d213e4;
+ float: left;
+ color: white;
+ justify-content: center;
+ margin-left: 10%;
+ margin-right: 8%;
+ margin-top: 1%;
+   
+}
+
+
+textarea[name="user-input"]{
+  height: 150px;
+  width: 350px;
+  border-radius: 15px;
+  padding: 15px;
+  border: 2px solid #420099;
+}
+
+#reset-button{
+  color: rgb(236, 236, 245);
+  margin-top: 1%;
+  margin-left: 1%;
+  padding: 10px;
+  background-color: blueviolet;
+}
+
+
+
+
+footer{
+  position: fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#999;
+  padding: 2%;
+    }
