@@ -73,27 +73,35 @@ textarea[name="user-input"]{
   padding: 10px;
   background-color: rgb(212, 69, 17);
   text-align: center;
-  width: 50%;
-  height: 50px;
+  width: 120px;
+  height: 90px;
+  font-size: 20px;
+
 }
 
 
-
-
-footer{
-  position: fixed;
-  left:0px;
-  bottom:0px;
-  height:5px;
-  width:100%;
-  background:#361bd1;
-  padding: 2%;
-  text-align: center;
-    }
+  footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 5px;
+    width: 100%;
+    background: #361bd1;
+    padding: 2%;
+    text-align: center;
+  }
+  
 
 .yo{
   color: blanchedalmond;
   font-size: 20px;
   margin-top: 1px;
   
+}
+@media (min-width: 600px) {
+  .principal {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
 }
