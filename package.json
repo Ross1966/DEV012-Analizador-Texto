@@ -1,7 +1,7 @@
 {
   "name": "text-analyzer",
   "version": "1.0.0",
-  "main": "src/index.html",
+  "homepage": "https://ross1966.github.io/DEV012-Analizador-Texto",
   "license": "MIT",
   "scripts": {
     "htmlhint": "htmlhint src/*.html",
