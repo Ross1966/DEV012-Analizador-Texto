@@ -1,53 +1,107 @@
 body{
-    text-align: center;
-    background: linear-gradient(180deg, rgb(184, 34, 116), pink);
+    /*text-align: center;*/
+    background: linear-gradient(180deg, rgb(24, 24, 24), rgb(98, 95, 96));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
 header{
-  background: rgb(147, 185, 230);  
+ 
+  display: block;
+  width: 100%;
+  height: 95px;
+  text-align: center;
+  justify-content: center;
   
+}
+
+h1{
+  /*margin-top: 150px;*/
+  color: rgb(214, 111, 15);
+  font-size: 70px;
+  font-family: Arial;
+}
+
+
+
+
+.principal{
+  text-align: center;
+  display: flex;
+  margin-top: 150px;
 }
 
 .cuenta{
  list-style-type: none;
  padding: 1%;
- background-color: #d213e4;
- float: left;
- color: white;
+ font-size: 25px;
+ color: rgb(230, 67, 59);
  justify-content: center;
  margin-left: 10%;
  margin-right: 8%;
- margin-top: 1%;
+ margin-top: 15%;
+ list-style-position: inside;
+ font-weight: bold;
+ font-style: italic;
    
 }
 
 
 textarea[name="user-input"]{
-  height: 150px;
-  width: 350px;
-  border-radius: 15px;
-  padding: 15px;
-  border: 2px solid #420099;
+   width: 100%;
+    max-width: 700px;
+    height: 350px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    margin-left: 29px;
+    padding: 10px;
+    font-size: 16px;
+    border: 4px solid #361bd1;
+    border-radius: 15px;
+    background: rgb(188, 171, 171);
+    color: blue;
+    font-size: 35px;
+    /*resize: none;*/
 }
 
 #reset-button{
   color: rgb(236, 236, 245);
-  margin-top: 1%;
+  margin-top: 10%;
   margin-left: 1%;
   padding: 10px;
-  background-color: blueviolet;
+  background-color: rgb(212, 69, 17);
+  text-align: center;
+  width: 120px;
+  height: 90px;
+  font-size: 20px;
+
 }
 
 
+  footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 5px;
+    width: 100%;
+    background: #361bd1;
+    padding: 2%;
+    text-align: center;
+  }
+  
 
-
-footer{
-  position: fixed;
-  left:0px;
-  bottom:0px;
-  height:30px;
-  width:100%;
-  background:#999;
-  padding: 2%;
-    }
+.yo{
+  color: blanchedalmond;
+  font-size: 20px;
+  margin-top: 1px;
+  
+}
+@media (min-width: 600px) {
+  .principal {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+}

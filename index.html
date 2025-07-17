@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Analizador de texto</title>
+ 
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -11,9 +12,10 @@
   <script src="index.js" type="module"></script>
   <header>
     <h1>Analizador de Texto</h1>
+    <img src="textAnalizer.jpg"/>
   </header>
-  
-  <textarea name="user-input"></textarea>
+  <div class="principal">
+  <textarea name="user-input" placeholder="Escribe un texto"></textarea>
   <br><br>
 
   <ul>
@@ -21,21 +23,21 @@
     <li data-testid ="character-count" class="cuenta">Caracteres: 0</li>
     <li data-testid="character-no-spaces-count" class="cuenta" >Caracteres sin espacios: 0</li>
     <li data-testid="number-count" class="cuenta">Números: 0</li>
-    <li data-testid="number-sum" class="cuenta">Suma Números: 0</li>
+    <li data-testid="number-sum" class="cuenta">Suma de Números: 0</li>
     <li data-testid="word-length-average" class="cuenta">Longitud de Palabras: 0</li>
-
+    <button id="reset-button">Borrar todo</button>
 
   </ul>
 
-  
-  <br><br><br><br><br><br><br>
-  <button id="reset-button">Borrar todo</button>
+</div>
+ 
+ 
 
   <br><br><br>
 
 
   <footer>
-    <p>Rosa María Ibáñez</p>
+    <p class="yo">Rosa María Ibáñez Ramos</p>
 
   </footer>
   
